@@ -1,0 +1,51 @@
+{
+  "name": "notion",
+  "owner": {
+    "name": "Notion"
+  },
+  "description": "Claude Code marketplace federating every @amlplugins/notion-* plugin under a single marketplace source.",
+  "plugins": [
+    {
+      "name": "notion-blocks",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/notion-blocks.git"
+      }
+    },
+    {
+      "name": "notion-comments",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/notion-comments.git"
+      }
+    },
+    {
+      "name": "notion-databases",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/notion-databases.git"
+      }
+    },
+    {
+      "name": "notion-pages",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/notion-pages.git"
+      }
+    },
+    {
+      "name": "notion-search",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/notion-search.git"
+      }
+    },
+    {
+      "name": "notion-users",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/notion-users.git"
+      }
+    }
+  ]
+}
